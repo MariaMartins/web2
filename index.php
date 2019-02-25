@@ -10,8 +10,18 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        echo "Ola mundo";
-        ?>
+     <?php
+
+$vetor= array ();
+
+for ($i=0; $i<50; $i++){
+    
+      $vetor [$i]= 42;
+      
+}
+echo "<pre>";
+ print_r ($vetor);
+
+?> 
     </body>
 </html>
